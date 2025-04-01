@@ -15,7 +15,7 @@ scanf("%d", &cost[i][j]);
 prims(cost, n);
 printf("Edges of the minimal spanning tree:\n");
 for (i = 0; i < n - 1; i++) {
-printf("%d, %d" , t[i][0], t[i][1]);
+printf("(%d, %d)" , t[i][0], t[i][1]);
 }
 printf("\nSum of minimal spanning tree: %d\n", sum);
 return 0;
